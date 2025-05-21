@@ -1,4 +1,26 @@
-/* Created by: Mr. Coxall
-* Created on: Sep 2020
+/* Created by: Aimar Fernandez
+* Created on: Feb 2025
 * This file contains the CSS for index.html
 */
+
+body {
+  background-color: rgb(237, 232, 232);
+  font-size: medium;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+main,
+.mdl-layout__header {
+  padding-left: 20px;
+}
+
+img {
+  height: 200px;
+}
+
+button {
+  width: 203.32px;
+  height: 199.99px;
+  background-color: transparent;
+  border-color: transparent;
+}

@@ -1,0 +1,28 @@
+{
+  "name":"Division Program",
+  "short_name":"Division Program",
+  "description": "Github Page for Division Program",
+  "scope": "/ICD2O-Unit-6-01-Aimar-Fernandez/",
+  "start_url": "/ICD2O-Unit-6-01-Aimar-Fernandez/",
+  "permissions": [
+    "unlimitedStorage",
+    "fullscreen"
+  ],
+  "icons":[
+    {
+      "src":"./android-chrome-192x192.png",
+      "sizes":"192x192",
+      "type":"image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src":"./android-chrome-512x512.png",
+      "sizes":"512x512",
+      "type":"image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "theme_color":"#ffffff",
+  "background_color":"#ffffff",
+  "display":"standalone"
+}
