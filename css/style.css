@@ -16,6 +16,7 @@ main,
 
 img {
   height: 200px;
+  float: right
 }
 
 button {
@@ -23,4 +24,9 @@ button {
   height: 199.99px;
   background-color: transparent;
   border-color: transparent;
+}
+
+p {
+  font-size: 75px;
+  padding-top: 50px;
 }
