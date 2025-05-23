@@ -11,9 +11,12 @@ async function updateWeather() {
     const infoJSON = await fetch("https://api.openweathermap.org/data/2.5/weather?lat=45.4211435&lon=-75.6900574&appid=fe1d80e1e103cff8c6afd190cad23fa5")
     const JSONdata = await infoJSON.json()
     const kelvinTemp = await JSONdata.main.temp
+    const weatherIcon = await JSONdata.weather[0].icon
     const celsiusTemp = (kelvinTemp - 273.15).toFixed(0)
     document.getElementById("answer").innerHTML = 
       "<p>" + celsiusTemp + "°C</p>"
+    document.getElementById("weather-image").innerHTML = 
+      '<img src="https://openweathermap.org/img/wn/' + weatherIcon + '@2x.png" />'
   }
   catch (error) {
     document.getElementById("answer").innerHTML = "<p>Error</p>"
